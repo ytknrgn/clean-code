@@ -20,7 +20,7 @@ module.exports = {
     'no-mixed-operators': 'off', // Incompatible with prettier
     'function-paren-newline': 'off', // Incompatible with prettier
     'space-before-function-paren': 0, // Incompatible with prettier
-
+    'implicit-arrow-linebreak': 'off',
     'max-len': ['error', 100, 2, { ignoreUrls: true }], // airbnb is allowing some edge cases
     'no-console': 'off', // airbnb is using warn
     'no-alert': 'error', // airbnb is using warn
@@ -37,6 +37,8 @@ module.exports = {
     'react/prefer-stateless-function': 'off',
     
     'jsx-a11y/anchor-is-valid': ['error', { components: ['Link'], specialLink: ['to'] }],
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/no-noninteractive-element-interactions': 'off',
     'jsx-a11y/label-has-for': [
       2,
       {
